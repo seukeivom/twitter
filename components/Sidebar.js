@@ -5,7 +5,7 @@ import { DotsHorizontalIcon, UserIcon, DotsCircleHorizontalIcon, ClipboardIcon, 
 
 export default function Sidebar() {
     return (
-        <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full'>
+        <div className='hidden sm:flex flex-col p-2 xl:items-center fixed h-full'>
             {/* Twitter logo */}
             <div className='hoverEffect p-0 hover:bg-blue-100 xl:px-1'>
 
@@ -14,7 +14,7 @@ export default function Sidebar() {
 
             {/* Menu */}
             <div className='mt-4 mb-2.5 xl:items-start'>
-                <SidebarMenuItem text="Home" Icon={HomeIcon} active/>
+                <SidebarMenuItem text="Home" Icon={HomeIcon} active />
                 <SidebarMenuItem text="Explore" Icon={HashtagIcon} />
                 <SidebarMenuItem text="Notifications" Icon={BellIcon} />
                 <SidebarMenuItem text="Messages" Icon={InboxIcon} />
@@ -35,7 +35,7 @@ export default function Sidebar() {
                     <h4 className='font-bold'>John Doe</h4>
                     <p className='text-gray-500'>@johndoe</p>
                 </div>
-                <DotsHorizontalIcon  className="h-5 xl:ml-8 hidden xl:inline"/>
+                <DotsHorizontalIcon className="h-5 xl:ml-8 hidden xl:inline" />
             </div>
         </div>
     )
