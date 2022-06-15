@@ -18,7 +18,7 @@ export default function Home({news, randomUserData}) {
         {/* Feed section */}
         <Feed />
         {/* Widgets */}
-        <Widgets news={news.articles} randomUser={randomUserData}/>
+        <Widgets news={news.articles} randomUsers={randomUserData}/>
 
         {/* Modal */}
       </main>
