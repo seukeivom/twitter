@@ -5,11 +5,11 @@ import { DotsHorizontalIcon, UserIcon, DotsCircleHorizontalIcon, ClipboardIcon, 
 
 export default function Sidebar() {
     return (
-        <div className='hidden sm:flex flex-col p-2 xl:items-center fixed h-full xl:ml-24'>
+        <div className='hidden sm:flex flex-col p-2 xl:items-center rounded-full fixed h-full xl:ml-24'>
             {/* Twitter logo */}
-            <div className='hoverEffect p-0 hover:bg-blue-100 xl:px-1'>
+            <div className='flex items-center justify-center hoverEffect p-0 hover:bg-blue-100 xl:px-1'>
 
-                <Image width="50" height="50" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"></Image>
+                <Image className='w-11 h-11' width="45" height="50" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"/>
             </div>
 
             {/* Menu */}
